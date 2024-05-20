@@ -1,0 +1,56 @@
+
+body{
+   scroll-behavior: smooth;
+ }
+ .project-item img{
+   height: 300px;
+ }
+ .img-class:hover {
+   box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.5);
+ }
+ 
+.spital-img:hover{
+   box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.5);
+
+  }
+
+   .moving-text {
+      animation: moveText 8s ease ;
+     }
+     
+@keyframes moveText {
+ from { transform: translateX(-100%); }
+ to { transform: translateX(0); }
+}
+
+
+.nav-link:hover{
+border-bottom: 2px solid blue;
+color: blue;
+}
+
+
+
+
+a i{
+   border: 2px solid blue;
+   border-radius: 100%;
+   padding: 10px;
+   margin: 6px;
+}
+a i:hover{
+   font-size: 20px;
+
+color: blue;
+
+
+}
+.padding {
+  padding-top: 3rem ;
+  padding-bottom: 3rem ;
+}
+.min-width {
+  max-width: 100%}
+
+
+
